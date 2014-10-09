@@ -7,7 +7,7 @@ body {
   width: 960px;
   margin: 20px auto;
 }
-img#Headshot{float: top-right}
+img#Headshot{float: right}
 body{background-image: url(football-field.jpg); 
   background-size: cover;
   background-position: center center;
