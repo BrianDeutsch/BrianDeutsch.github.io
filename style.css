@@ -8,4 +8,8 @@ body {
   margin: 20px auto;
 }
 img#Headshot{float: right}
-h4#summary{float: left; color: red}
+body{background-image: url(football-field.jpg); 
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
