@@ -24,3 +24,6 @@ body{background-image: url(football-field.jpg);
   margin: 20px auto;
   padding: 20px;
 }
+.jumbotron {
+background-color: #535C5F;
+}
