@@ -27,7 +27,7 @@ body{background-image: url(football-field.jpg);
 .jumbotron {
 background-color: #535C5F;
 }
-@media all and (max-width: 480px)  {
+@media all and (max-width: 768px)  {
     .half {
         float: left !important;
         width: 50% !important;
