@@ -1,60 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Bootstrap Me</title>
+<title>Forms Extravaganza</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-  <div class="jumbotron">
-  <h1>The Swami is In!!!</h1>
-  <p>Your one-stop shop for all your weekend winners</p>
+<div class="container">
+<h1>The Worst Restaurant Ever</h1>
+<form action="http://learn.golearntocode.com/forms" method="post">
+<!-- Text -->
+<div class="form-group">
+<label for="name">What's your name?</label>
+<input type="text" class="form-control" id="name" name="name">
 </div>
-  <div class="row">
-<div class="col-sm-4">
-<h3>Brian Deutsch</h3>
-<p>Handicapper Extraordinaire</p>
-<a href="mypicks.html">This Week's Picks</a>
-   <section>
-      <h4>Record to date</h4>
-      <section>
-        <p> 17-8 ATS
-      </section>
-   <section>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:bdeutsch2015@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="http://twitter.com/bdeutsch15">Twitter</a></li>
-        <li><a href="http://facebook.com/brian.deutsch.718">Facebook</a></li>
-      </ul>
-    </section>
+<!-- Textarea -->
+<div class="form-group">
+<label for="special">Any special requests?</label>
+<textarea class="form-control" name="special" rows="10"></textarea>
 </div>
-<div class="col-sm-4">
-<h3>My Story</h3>
-<p>Brian's love for sports wagering was fostered at a young age, helping his father with his weekly pick 5 NFL pools.  Eventually, the living room was home to 5 TVs each with its own feed to games across the nation.  For Brian, weekdays were spent researching schedules, tendencies, and injuries while weekends were reserved for watching the games with family; homework always took a back seat to sports.  Today, Brian is bringing his years of picking experience to you, and best of all it is all FREE!</p>
-<section>
-      <h4>Skills</h4>
-      <ul>
-        <li>Handicapping</li>
-        <li>Coding</li>
-      </ul>
-    </section>
-    <section>
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Sports wagering</li>
-        <li>Fantasy Football</li>
-      </ul>
-    </section>
+<!-- Checkboxes -->
+<div class="checkbox">
+<label>
+<input type="checkbox" name="tacos" value="Yes">
+Tacos
+</label>
 </div>
-<div class="col-sm-4">
-<img src="Headshot.jpg" class="img-circle" width="100%" height="80%"> 
+<div class="checkbox">
+<label>
+<input type="checkbox" name="burritos" value="Yes">
+Burritos
+</label>
 </div>
+<!-- Radios -->
+<div class="radio">
+<label>
+<input type="radio" name="options" id="optionsRadios1" value="Sour Cream" checked>
+Sour Cream
+</label>
 </div>
+<div class="radio">
+<label>
+<input type="radio" name="options" id="optionsRadios2" value="Guac">
+Guac
+</label>
+</div>
+<!-- Select -->
+<div class="form-group">
+<label for="extras">Extra stuff?</label>
+<select class="form-control" id="extras" name="extras">
+<option>Chips</option>
+<option>Drink</option>
+<option>Drink</option>
+<option>Drink</option>
+<option>Drink</option>
+<option>Drink</option>
+</select>
+</div>
+<button type="submit" class="btn btn-success">Submit</button>
 </div>
 </body>
 </html>
