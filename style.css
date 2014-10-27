@@ -33,3 +33,7 @@ background-color: #535C5F;
         width: 50% !important;
     }
 }
+p {
+  font-size: 14
+  font-weight: 400
+}
